@@ -1,18 +1,9 @@
 {
-  "name": "micro-parser-urlencoded",
-  "version": "1.0.0",
+  "name": "urlencoded-body-parser",
+  "version": "1.0.1",
   "description": "Small application/x-www-form-urlencoded request body parser",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timneutkens/micro-parser-urlencoded.git"
-  },
-  "keywords": [
-    "micro"
-  ],
+  "repository": "timneutkens/urlencoded-body-parser",
   "author": "Tim Neutkens",
   "license": "MIT",
   "bugs": {
