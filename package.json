@@ -1,18 +1,29 @@
 {
   "name": "urlencoded-body-parser",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Small application/x-www-form-urlencoded request body parser",
-  "main": "index.js",
+  "main": "dist.js",
+  "files": [
+    "dist.js"
+  ],
   "repository": "timneutkens/urlencoded-body-parser",
   "author": "Tim Neutkens",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/timneutkens/micro-parser-urlencoded/issues"
+  "scripts": {
+    "build": "async-to-gen index.js > dist.js",
+    "test": "standard; node --harmony-async-await ./node_modules/.bin/jest"
   },
-  "homepage": "https://github.com/timneutkens/micro-parser-urlencoded#readme",
   "dependencies": {
     "media-typer": "^0.3.0",
     "qs": "^6.2.1",
     "raw-body": "^2.1.7"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.0",
+    "jest": "^18.1.0",
+    "micro": "^6.1.0",
+    "node-fetch": "^1.6.3",
+    "standard": "^8.6.0",
+    "test-listen": "^1.0.0"
   }
 }
