@@ -1,4 +1,3 @@
-require('async-to-gen/register')
 const listen = require('test-listen').default
 const fetch = require('node-fetch')
 const micro = require('micro')
