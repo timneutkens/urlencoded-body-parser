@@ -10,6 +10,7 @@
   "author": "Tim Neutkens",
   "license": "MIT",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "async-to-gen index.js > dist.js",
     "test": "standard; node --harmony-async-await ./node_modules/.bin/jest"
   },
