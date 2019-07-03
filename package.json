@@ -10,7 +10,7 @@
   "author": "Tim Neutkens",
   "license": "MIT",
   "scripts": {
-    "test": "standard index.js; node ./node_modules/.bin/jest"
+    "test": "node ./node_modules/.bin/jest"
   },
   "dependencies": {
     "media-typer": "^0.3.0",
@@ -21,7 +21,6 @@
     "jest": "^24.8.0",
     "micro": "^9.3.4",
     "node-fetch": "^2.6.0",
-    "standard": "^8.6.0",
     "test-listen": "^1.1.0"
   }
 }
