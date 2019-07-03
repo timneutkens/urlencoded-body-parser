@@ -1,4 +1,4 @@
-const listen = require('test-listen').default
+const listen = require('test-listen')
 const fetch = require('node-fetch')
 const micro = require('micro')
 
