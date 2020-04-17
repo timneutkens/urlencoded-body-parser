@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Small application/x-www-form-urlencoded request body parser",
   "main": "index.js",
+  "types": "urlencoded-body-parser.d.ts",
   "files": [
     "index.js"
   ],
